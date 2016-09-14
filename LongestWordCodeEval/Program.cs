@@ -10,7 +10,7 @@ namespace LongestWordCodeEval
     {
         static void Main(string[] args)
         {
-            string line = "awesome lobster on fire";
+            string line = Console.ReadLine();
 
             string[]splitLine = line.Split(' ');
             string longWord = "";
